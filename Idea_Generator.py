@@ -43,7 +43,7 @@ var_holder = Variable_Holder()
 @app.message("Help")
 def message_hello(message, say):
     # say() sends a message to the channel where the event was triggered
-    say(text=f"(this is a WIP) Hey there <@{message['user']}>! Try running " +
+    say(text=f"Hey there <@{message['user']}>! Try running " +
         "/give_idea or /get_idea.")
 
 
